@@ -70,9 +70,9 @@
         <div data-cy="hw1-skills-box-pre">
             <h2>Мои скиллы</h2>
             
-                <input type="checkbox" checked>Блочные Теги
-                <input type="checkbox" checked>Строчные Теги
-                <input type="checkbox">Каскадные таблицы стилей
+                <input type="checkbox" checked> <label for="">Блочные Теги</label>
+                <input type="checkbox" checked> <label for="">Строчные Теги</label>
+                <input type="checkbox"> <label for="">таблицы стилей</label>
             
             <!-- 4) Здесь создай несколько чекбоксов с подписью (не меньше 3-х). 
                 - В подписи укажи названия любых тем по верстке (все, что знаешь или слышал). 
@@ -80,7 +80,7 @@
                 - Отметь "галочкой" (с помощью специального атрибута) темы, которые ты уже знаешь. -->
         </div>
         <input type="text" name="New skill" placeholder="Новый скилл" />
-        <input type="button" name="Add" value="Добавить" />
+        <button>Добавить</button>
         <hr>
 
         <!-- 5) Создай здесь однострочное поле для ввода текста с подсказкой "Новый скилл", которая исчезает, когда начинаешь что-то печатать (для подсказки есть специальный атрибут) -->
@@ -88,8 +88,9 @@
         <!-- 7) Добавь горизонтальную линию (для этого есть специальный тег) -->
         
         
-         
-            <table  data-cy="hw-about-table-pre" style="border: 1px solid rgb(0, 0, 0);">
+            
+            <table border="1"  data-cy="hw-about-table-pre">
+                
                 <tbody>
                     <th style="border: 1px solid rgb(0, 0, 0);">Заголовок-1</th>
                     <th style="border: 1px solid rgb(0, 0, 0);">Заголовок-2</th>
@@ -120,8 +121,12 @@
                         <td style="border: 1px solid rgb(0, 0, 0);">Среда
                         </td>
                         </tr>
-                        <td colspan="3" style="border: 1px solid rgb(0, 0, 0);">Домашнее задание разобрать теги HTML, свойства стилей CSS.
+                        <tr>
+                        <td colspan="2" style="border: 1px solid rgb(0, 0, 0);">Домашнее задание разобрать теги HTML, свойства стилей CSS.
+                            
                         </td>
+                        <td></td>
+                    </tr>
                         
             </table>                                            
         
